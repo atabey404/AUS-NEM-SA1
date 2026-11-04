@@ -1,31 +1,30 @@
 # AUS-NEM-SA1
 
-面向澳大利亚国家电力市场（NEM）南澳区域 `SA1` 的五分钟数据、市场知识与电价预测入门项目。
+An English-language starter project for five-minute data, market concepts, leakage controls, and price forecasting in the South Australian `SA1` region of the Australian National Electricity Market.
 
-## 项目范围
+## Project scope
 
-- 区域：`SA1`
-- 主要时间粒度：5 分钟
-- 首版完整归档窗口：2023-07 至 2026-06
-- 核心数据：区域现货价格、区域汇总、运营负荷、联络线
-- 扩展数据：DUID 级 SCADA、30 分钟 Pre-dispatch、5 分钟 P5MIN、天气
-- 核心原则：所有特征必须满足 `available_time <= prediction_cutoff`
+- Region: `SA1`
+- Primary time grain: five minutes
+- Initial complete archive window: 2023-07 to 2026-06
+- Core data: regional spot price, regional dispatch summary, operational demand, and interconnectors
+- Extended data: DUID-level SCADA, 30-minute pre-dispatch, five-minute P5MIN, and weather
+- Core rule: every feature must satisfy `available_time <= prediction_cutoff`
 
-## 仓库内容
+## Repository contents
 
-| 文件 | 用途 |
+| File | Purpose |
 | --- | --- |
-| `download_sa1_nem_data.py` | 按月下载并过滤 AEMO NEMWeb 数据 |
-| `sa1_duid_fuel_map.csv` | SA1 DUID 与燃料类型映射 |
-| `AEMO_SA1_Data_Dictionary.xlsx` | 字段含义、单位、来源、发布时间、预测可用性和泄漏风险 |
-| `NEM_Market_Overview_CN.docx` | 中文 NEM 市场笔记 |
-| `NEM_Market_Overview_EN.docx` | English market overview |
-| `SA1_core_2023-07_2026-06_QA.csv` | 三年 Core 数据质量检查结果 |
-| `SA1_weather_QA.csv` | 天气数据质量检查结果 |
+| `download_sa1_nem_data.py` | Downloads and filters AEMO NEMWeb data by month |
+| `sa1_duid_fuel_map.csv` | Maps SA1 DUIDs to fuel and technology classes |
+| `AEMO_SA1_Data_Dictionary.xlsx` | Defines fields, units, sources, publication times, forecast availability, and leakage risk |
+| `NEM_Market_Overview.docx` | English overview of the NEM and the SA1 modelling boundary |
+| `SA1_core_2023-07_2026-06_QA.csv` | Quality checks for the three-year core dataset |
+| `SA1_weather_QA.csv` | Quality checks for the weather datasets |
 
-## 快速开始
+## Quick start
 
-仅下载 Core 数据：
+Download the core profile:
 
 ```bash
 python download_sa1_nem_data.py \
@@ -35,7 +34,7 @@ python download_sa1_nem_data.py \
   --output data_sa1
 ```
 
-下载完整档位并加入天气：
+Download the full profile and both weather products:
 
 ```bash
 python download_sa1_nem_data.py \
@@ -46,27 +45,27 @@ python download_sa1_nem_data.py \
   --output data_sa1
 ```
 
-脚本仅使用 Python 标准库。`full` 档位数据量较大，建议按月增量运行。
+The script uses only the Python standard library. The `full` profile is large, so process it incrementally by month.
 
-## 数据与泄漏控制
+## Data and leakage controls
 
-1. NEM 自 2021-10-01 起采用五分钟结算，本项目保留五分钟事实层。
-2. 未来真实 RRP、真实负荷、真实 SCADA 和真实联络线潮流只能作为标签或事后核验，不能作为预测特征。
-3. Pre-dispatch 必须保留目标时刻和发布版本；只选择预测截点之前已发布的版本。
-4. 实况再分析天气仅用于探索或回测；正式日前模型应使用历史固定 lead 的天气预报版本。
-5. 验证采用滚动时间切分，不进行随机打乱。
+1. The NEM has used five-minute settlement since 1 October 2021. This project retains a five-minute fact layer.
+2. Future realised RRP, actual demand, actual SCADA, and actual interconnector flow are labels or post-event validation data, not forecast features.
+3. Pre-dispatch data must retain both the target interval and forecast vintage. Select only runs published at or before the prediction cutoff.
+4. Weather reanalysis is for exploration or retrospective validation only. Day-ahead models should use archived fixed-lead forecasts.
+5. Validation uses rolling chronological splits, never random shuffling.
 
-## 数据文件说明
+## Data-file policy
 
-本仓库不直接托管三年完整市场数据和天气数据。原因是文件体积大、更新频繁，且 AEMO 原始数据可由下载脚本复现。仓库仅保留代码、映射、QA、说明文档与后续模型成果。
+This repository does not host the complete three-year market and weather datasets. They are large, change over time, and can be reproduced from AEMO and the weather provider with the included script. The repository keeps code, mappings, QA results, documentation, and subsequent modelling outputs.
 
-## 官方来源
+## Official sources
 
 - [AEMO NEM Data](https://www.aemo.com.au/energy-systems/electricity/national-electricity-market-nem/data-nem)
 - [NEMWeb](https://visualisations.aemo.com.au/aemo/nemweb/)
 - [Operational Demand Data](https://www.aemo.com.au/energy-systems/electricity/national-electricity-market-nem/data-nem/operational-demand-data)
 - [Pre-dispatch](https://www.aemo.com.au/energy-systems/electricity/national-electricity-market-nem/data-nem/market-management-system-mms-data/pre-dispatch)
 
-## 更新约定
+## Update policy
 
-后续新增的数据处理、特征工程、模型、验证结果和文档将继续提交到本仓库。密钥、本地绝对路径、临时文件和完整原始数据不会上传。
+Future data processing, feature engineering, models, validation results, and documentation will be committed to this repository. Secrets, local absolute paths, temporary files, and complete raw datasets will not be uploaded.
