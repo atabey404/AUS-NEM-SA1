@@ -1,0 +1,108 @@
+﻿DUID,SITE_NAME,FUEL_CLASS,TECHNOLOGY_TYPE,TECHNOLOGY_DETAIL,GAS_FUEL_TYPE,DISPATCH_TYPE,STATUS,FIRST_SNAPSHOT,LAST_SNAPSHOT,SNAPSHOT_COUNT,SOURCE_FILE
+ADPBA1,Adelaide Desalination Plant,Battery,Battery Storage,Lithium-ion,nan,Scheduled,In Service,2025-08-01,2026-07-31,2,nem_generation_information_july_2026.xlsx
+ADPBA1G,Adelaide Desalination Plant,Battery,Storage - Battery,Other - Other,,S,In Service,2023-07-13,2024-07-24,2,nem_gen_2024.xlsx
+BLYTHB1,Blyth BESS,Battery,Battery Storage,Lithium-ion,nan,Scheduled,In Service,2025-08-01,2026-07-31,2,nem_generation_information_july_2026.xlsx
+BOWWBA1,Bolivar Waste Water Treatment,Battery,Battery Storage,Lithium-ion,nan,Scheduled,In Service,2025-08-01,2026-07-31,2,nem_generation_information_july_2026.xlsx
+BOWWBA1G,Bolivar Waste Water Treatment,Battery,Storage - Battery,Other - Other,,S,In Service,2023-07-13,2024-07-24,2,nem_gen_2024.xlsx
+BUNGAMB1,Bungama Solar,Battery,Battery Storage,Lithium-ion,nan,Scheduled,In Service,2026-07-31,2026-07-31,1,nem_generation_information_july_2026.xlsx
+CBWWBA1,Christies Beach Wastewater Treatment Plant,Battery,Battery Storage,Lithium-ion,nan,Scheduled,In Service,2025-08-01,2026-07-31,2,nem_generation_information_july_2026.xlsx
+CBWWBA1G,Christies Beach Wastewater Treatment Plant,Battery,Storage - Battery,Other - Other,,S,In Service,2023-07-13,2024-07-24,2,nem_gen_2024.xlsx
+CGBESS01,Clements Gap - BESS,Battery,Battery Storage,Lithium-ion,nan,Scheduled,In Commissioning,2026-07-31,2026-07-31,1,nem_generation_information_july_2026.xlsx
+CHMLBESS,Chaff Mill (Mintaro) BESS,Battery,Storage - Battery,Other - Other,,S,Publicly Announced,2023-07-13,2024-07-24,2,nem_gen_2024.xlsx
+DALNTH01,Dalrymple BESS,Battery,Storage - Battery,Other - Other,,S,In Service,2023-07-13,2024-07-24,2,nem_gen_2024.xlsx
+DALNTH1,Dalrymple BESS,Battery,Battery Storage,Lithium-ion,nan,Scheduled,In Service,2025-08-01,2026-07-31,2,nem_generation_information_july_2026.xlsx
+HPR1,Hornsdale Power Reserve Unit 1,Battery,Battery Storage,Lithium-ion,nan,Scheduled,In Service,2025-08-01,2026-07-31,4,nem_generation_information_july_2026.xlsx
+HPRG1,Hornsdale Power Reserve Unit 1,Battery,Storage - Battery,Other - Other,,S,In Service,2023-07-13,2024-07-24,4,nem_gen_2024.xlsx
+HVWABA1G,Happy Valley Reservoir,Battery,Storage - Battery,Other - Other,,S,In Service,2023-07-13,2024-07-24,2,nem_gen_2024.xlsx
+HVWWBA1,Happy Valley Reservoir,Battery,Battery Storage,Lithium-ion,nan,Scheduled,In Service,2025-08-01,2026-07-31,2,nem_generation_information_july_2026.xlsx
+LBB1,Lake Bonney Battery Energy Storage,Battery,Battery Storage,Lithium-ion,nan,Scheduled,In Service,2025-08-01,2026-07-31,2,nem_generation_information_july_2026.xlsx
+LBBG1,Lake Bonney Battery Energy Storage,Battery,Storage - Battery,Other - Other,,S,In Service,2023-07-13,2024-07-24,2,nem_gen_2024.xlsx
+LGAPBS1,LINCOLN GAP BESSBDU,Battery,Battery Storage,Lithium-ion,nan,Scheduled,Committed,2025-08-01,2026-07-31,2,nem_generation_information_july_2026.xlsx
+MANNUMB1,Mannum BESS,Battery,Battery Storage,Lithium-ion,nan,Scheduled,In Service,2026-07-31,2026-07-31,1,nem_generation_information_july_2026.xlsx
+TB2B1,Tailem Bend Battery Project,Battery,Battery Storage,Lithium-ion,nan,Scheduled,In Service,2026-07-31,2026-07-31,1,nem_generation_information_july_2026.xlsx
+TB2BG1,Tailem Bend Battery Project,Battery,Storage - Battery,Other - Other,,S,Committed,2023-07-13,2025-08-01,3,nem_gen_2025.xlsx
+TEMPB1,Templers BESS,Battery,Battery Storage,Lithium-ion,nan,Scheduled,In Service,2026-07-31,2026-07-31,1,nem_generation_information_july_2026.xlsx
+TIB1,Torrens Island BESS,Battery,Battery Storage,Lithium-ion,nan,Scheduled,In Service,2025-08-01,2026-07-31,2,nem_generation_information_july_2026.xlsx
+TIBG1 / TIPL1,Torrens Island BESS,Battery,Storage - Battery,Other - Other,,S,In Service,2023-07-13,2024-07-24,2,nem_gen_2024.xlsx
+AGLHAL,Hallett Power Station,Gas,Gas Turbine,OCGT,Natural Gas,Scheduled,In Service,2023-07-13,2026-07-31,39,nem_generation_information_july_2026.xlsx
+ANGAST1,Angaston,Gas,Gas Turbine,OCGT,Diesel/ Fuel Oil,Scheduled,In Service,2023-07-13,2026-07-31,8,nem_generation_information_july_2026.xlsx
+BARKIPS1,Barker Inlet Power Station,Gas,Gas Turbine,Other,Natural Gas,Scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+BOLIVPS1,Bolivar Power Station,Gas,Gas Turbine,OCGT,Natural Gas,Scheduled,In Service,2023-07-13,2026-07-31,7,nem_generation_information_july_2026.xlsx
+DRYCGT1,Dry Creek GT,Gas,Gas Turbine,OCGT,Natural Gas,Scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+DRYCGT2,Dry Creek GT,Gas,Gas Turbine,OCGT,Natural Gas,Scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+DRYCGT3,Dry Creek GT,Gas,Gas Turbine,OCGT,Natural Gas,Scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+LADBROK1,Ladbroke Grove,Gas,Gas Turbine,OCGT,Natural Gas,Scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+LADBROK2,Ladbroke Grove,Gas,Gas Turbine,OCGT,Natural Gas,Scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+LONSDALE,Lonsdale,Gas,Gas Turbine,OCGT,Diesel/ Fuel Oil,Scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+MINTARO,Mintaro GT,Gas,Gas Turbine,OCGT,Natural Gas,Scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+OSB-AG,Osborne,Gas,Gas Turbine,CCGT,Natural Gas,Scheduled,Announced Withdrawal,2023-07-13,2026-07-31,8,nem_generation_information_july_2026.xlsx
+POR01,Port Lincoln GT,Gas,Gas Turbine,OCGT,Diesel/ Fuel Oil,Scheduled,Announced Withdrawal,2023-07-13,2026-07-31,5,nem_generation_information_july_2026.xlsx
+POR03,Port Lincoln GT,Gas,Gas Turbine,OCGT,Diesel/ Fuel Oil,Scheduled,Announced Withdrawal,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+PPCCGT,Pelican Point,Gas,Gas Turbine,CCGT,Natural Gas,Scheduled,In Service,2023-07-13,2026-07-31,9,nem_generation_information_july_2026.xlsx
+PTSTAN1,Port Stanvac 1,Gas,Gas Turbine,OCGT,Diesel/ Fuel Oil,Scheduled,In Service,2023-07-13,2026-07-31,5,nem_generation_information_july_2026.xlsx
+QPS1,Quarantine,Gas,Gas Turbine,OCGT,Natural Gas,Scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+QPS2,Quarantine,Gas,Gas Turbine,OCGT,Natural Gas,Scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+QPS3,Quarantine,Gas,Gas Turbine,OCGT,Natural Gas,Scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+QPS4,Quarantine,Gas,Gas Turbine,OCGT,Natural Gas,Scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+QPS5,Quarantine,Gas,Gas Turbine,OCGT,Natural Gas,Scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+SNAPPER1,Snapper Point Power Station,Gas,Gas Turbine,OCGT,Natural Gas,Scheduled,In Service,2023-07-13,2026-07-31,9,nem_generation_information_july_2026.xlsx
+SNUG1,Snuggery,Gas,Gas Turbine,OCGT,Diesel/ Fuel Oil,Scheduled,Announced Withdrawal,2023-07-13,2026-07-31,6,nem_generation_information_july_2026.xlsx
+SNUGNL1,Snuggery,Gas,Gas Turbine,OCGT,Diesel/ Fuel Oil,Non-scheduled,Announced Withdrawal,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+TATIARA1,Tatiara Meats,Gas,Gas Turbine,Other,Diesel/ Fuel Oil,Non-scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+TORRA3,Torrens Island A,Gas,Turbine - Steam Sub Critical,Fossil - Natural Gas Pipeline,,S,Withdrawn - Permanent,2023-07-13,2023-07-13,1,nem_gen_2023.xlsx
+TORRB1,Torrens Island B,Gas,Gas Turbine,Steam Turbine,Natural Gas,Scheduled,Announced Withdrawal,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+TORRB2,Torrens Island B,Gas,Gas Turbine,Steam Turbine,Natural Gas,Scheduled,Announced Withdrawal,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+TORRB3,Torrens Island B,Gas,Gas Turbine,Steam Turbine,Natural Gas,Scheduled,Announced Withdrawal,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+TORRB4,Torrens Island B,Gas,Gas Turbine,Steam Turbine,Natural Gas,Scheduled,Announced Withdrawal,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+ADPMH1,Adelaide Desalination Plant,Hydro,Hydro,Run of River,nan,Non-scheduled,In Service,2026-07-31,2026-07-31,1,nem_generation_information_july_2026.xlsx
+ADVMH1,Adelaide Desalination Plant,Hydro,Hydro - Run of River,Hydro - Water,,NS,In Service,2025-08-01,2025-08-01,1,nem_gen_2025.xlsx
+TERMSTOR,Terminal Storage Mini Hydro,Hydro,Hydro - Other,Hydro - Water,,NS,In Service,2023-07-13,2024-07-24,2,nem_gen_2024.xlsx
+BLULAKE,Blue Lake Milling Power Plant,Liquid Fuel,Reciprocating Engine - Compression ignition,Fossil - Diesel,,NS,In Service,2023-07-13,2024-07-24,2,nem_gen_2024.xlsx
+ADPPV1,Adelaide Desalination Plant,Solar,Solar PV,Fixed,nan,Semi-scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+ADPPV2,Adelaide Desalination Plant,Solar,Solar PV,Fixed,nan,Semi-scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+ADPPV3,Adelaide Desalination Plant,Solar,Solar PV - Fixed,Solar - Solar,,NS,In Service,2025-08-01,2025-08-01,1,nem_gen_2025.xlsx
+BNGSF1,Bungala One Solar Farm,Solar,Solar PV,Single Axis Tracking,nan,Semi-scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+BNGSF2,Bungala Two Solar Farm,Solar,Solar PV,Single Axis Tracking,nan,Semi-scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+BOWWPV1,Bolivar Waste Water Treatment,Solar,Solar PV,Fixed,nan,Semi-scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+CBWWPV1,Christies Beach Wastewater Treatment Plant,Solar,Solar PV,Single Axis Tracking,nan,Non-scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+HVWAPV1,Happy Valley Reservoir,Solar,Solar PV - Single axis tracking,Solar - Solar,,SS,In Service,2023-07-13,2024-07-24,2,nem_gen_2024.xlsx
+HVWWPV1,Happy Valley Reservoir,Solar,Solar PV,Single Axis Tracking,nan,Semi-scheduled,In Service,2025-08-01,2026-07-31,2,nem_generation_information_july_2026.xlsx
+MANNSF2,Mannum Solar Farm 2,Solar,Solar PV,Single Axis Tracking,nan,Semi-scheduled,In Service,2025-08-01,2026-07-31,2,nem_generation_information_july_2026.xlsx
+MANSF2,Mannum Solar Farm 2,Solar,Solar PV - Single axis tracking,Solar - Solar,,SS,In Commissioning,2023-07-13,2024-07-24,2,nem_gen_2024.xlsx
+MAPS2PV1,Mannum Adelaide Pumping Station No 2 - MAPL2 (Palmer),Solar,Solar PV,Single Axis Tracking,nan,Semi-scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+MAPS3PV1,Mannum Adelaide Pumping Station No 3 - MAPL3 (Tungkillo),Solar,Solar PV,Single Axis Tracking,nan,Semi-scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+MBPS2PV1,Murray Bridge - Onkaparinga Pipeline Pump 2,Solar,Solar PV,Single Axis Tracking,nan,Semi-scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+MWPS1PV1,Morgan To Whyalla Pipeline No 1 PS And Water Filtration Plant,Solar,Solar PV,Single Axis Tracking,nan,Semi-scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+MWPS2PV1,Morgan To Whyalla Pipeline No 2 PS,Solar,Solar PV,Single Axis Tracking,nan,Semi-scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+MWPS3PV1,Morgan To Whyalla Pipeline No 3 PS,Solar,Solar PV,Single Axis Tracking,nan,Semi-scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+MWPS4PV1,Morgan To Whyalla Pipeline No 4 PS,Solar,Solar PV,Single Axis Tracking,nan,Semi-scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+PAREPS1,Port Augusta Renewable Energy Park - Solar,Solar,Solar PV,Fixed,nan,Semi-scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+TB2SF1,Tailem Bend Stage 2 Solar Project,Solar,Solar PV,Single Axis Tracking,nan,Semi-scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+TBSF1,Tailem Bend - Solar,Solar,Solar PV,Fixed,nan,Semi-scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+BLUFF1,Hallett 5 The Bluff WF,Wind,Wind,Onshore,nan,Semi-scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+CATHROCK,Cathedral Rocks,Wind,Wind,Onshore,nan,Significant Non-scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+CLEMGPWF,Clements Gap Wind Farm,Wind,Wind,Onshore,nan,Semi-scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+CNUNDAWF,Canunda,Wind,Wind,Onshore,nan,Significant Non-scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+GSWF1A,Goyder South Wind Farm 1A,Wind,Wind,Onshore,nan,Semi-scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+GSWF1B,Goyder South Wind Farm 1B,Wind,Wind Turbine - Onshore,Wind - Wind,,SS,Committed,2023-07-13,2024-07-24,2,nem_gen_2024.xlsx
+GSWF1B1,Goyder South Wind Farm 1B,Wind,Wind,Onshore,nan,Semi-scheduled,In Service,2025-08-01,2026-07-31,2,nem_generation_information_july_2026.xlsx
+HALLWF1,Hallett Stage 1 Brown Hill,Wind,Wind,Onshore,nan,Semi-scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+HALLWF2,Hallett Stage 2 Hallett Hill,Wind,Wind,Onshore,nan,Semi-scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+HDWF1,Hornsdale Wind Farm Stage 1,Wind,Wind,Onshore,nan,Semi-scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+HDWF2,Hornsdale Wind Farm Stage 2,Wind,Wind,Onshore,nan,Semi-scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+HDWF3,Hornsdale Wind Farm Stage 3,Wind,Wind,Onshore,nan,Semi-scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+LGAPWF1,Lincoln Gap Wind Farm - stage 1,Wind,Wind,Onshore,nan,Semi-scheduled,In Service,2023-07-13,2026-07-31,6,nem_generation_information_july_2026.xlsx
+LGAPWF2,Lincoln Gap Wind Farm - Stage 2,Wind,Wind,Onshore,nan,Semi-scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+LKBONNY1,Lake Bonney 1 Wind Farm,Wind,Wind,Onshore,nan,Significant Non-scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+LKBONNY2,Lake Bonney 2 Wind Farm,Wind,Wind,Onshore,nan,Semi-scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+LKBONNY3,Lake Bonney 3 Wind Farm,Wind,Wind,Onshore,nan,Semi-scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+MTMILLAR,Mt Millar Wind Farm,Wind,Wind,Onshore,nan,Significant Non-scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+NBHWF1,Hallett 4 North Brown Hill,Wind,Wind,Onshore,nan,Semi-scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+PAREPW1,Port Augusta Renewable Energy Park - Wind,Wind,Wind,Onshore,nan,Semi-scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+SNOWNTH1,Snowtown S2 Wind Farm,Wind,Wind,Onshore,nan,Semi-scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+SNOWSTH1,Snowtown S2 Wind Farm,Wind,Wind,Onshore,nan,Semi-scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+SNOWTWN1,Snowtown Wind Farm,Wind,Wind,Onshore,nan,Semi-scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+STARHLWF,Starfish Hill,Wind,Wind,Onshore,nan,Significant Non-scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx
+WATERLWF,Waterloo Wind Farm,Wind,Wind,Onshore,nan,Semi-scheduled,In Service,2023-07-13,2026-07-31,8,nem_generation_information_july_2026.xlsx
+WGWF1,Willogoleche Wind Farm,Wind,Wind,Onshore,nan,Semi-scheduled,In Service,2023-07-13,2026-07-31,8,nem_generation_information_july_2026.xlsx
+WPWF,Wattle Point,Wind,Wind,Onshore,nan,Significant Non-scheduled,In Service,2023-07-13,2026-07-31,4,nem_generation_information_july_2026.xlsx

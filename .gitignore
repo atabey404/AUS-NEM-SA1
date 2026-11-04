@@ -1,0 +1,30 @@
+# Generated datasets
+data_sa1/
+data/
+downloads/
+*.zip
+*.gz
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local configuration and secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary outputs
+tmp/
+temp/
+*.log
+~$*

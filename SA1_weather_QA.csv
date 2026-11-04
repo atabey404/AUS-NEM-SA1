@@ -1,0 +1,6 @@
+FILE,ROWS,FIRST_TIME_AEST,LAST_TIME_AEST,VARIABLE,MISSING_VALUES,MISSING_RATE,LEAKAGE_USE
+weather_reanalysis_proxy_hourly.csv.gz,131520,2023-07-01T00:00,2026-06-30T23:00,all four variables,0,0.000%,Exploration/backtest reference only; not a future feature
+weather_day_ahead_previous_run_hourly.csv.gz,109440,2024-01-01T00:00,2026-06-30T23:00,temperature_2m_previous_day1,2270,2.074%,Allowed after missing-value handling; fixed 24-hour lead
+weather_day_ahead_previous_run_hourly.csv.gz,109440,2024-01-01T00:00,2026-06-30T23:00,cloud_cover_previous_day1,2270,2.074%,Allowed after missing-value handling; fixed 24-hour lead
+weather_day_ahead_previous_run_hourly.csv.gz,109440,2024-01-01T00:00,2026-06-30T23:00,shortwave_radiation_previous_day1,2270,2.074%,Allowed after missing-value handling; fixed 24-hour lead
+weather_day_ahead_previous_run_hourly.csv.gz,109440,2024-01-01T00:00,2026-06-30T23:00,wind_speed_100m_previous_day1,5600,5.117%,Allowed after missing-value handling; fixed 24-hour lead
