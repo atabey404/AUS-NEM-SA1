@@ -25,9 +25,9 @@ Each row is a target dispatch interval. `TARGET_RRP` is the label, and `PREDICTI
 
 ## Generated feature groups
 
-- Historical lags at 1 day, 2 days and 8 days relative to the target
+- Historical lags at 1 day, 2 days and 1 week relative to the target
 - One-day rolling mean and standard deviation
-- Seven-day rolling mean
+- Seven-day rolling mean and an RRP rolling median benchmark
 - Time-of-day, day-of-week and month cyclical encodings
 - Aggregated day-ahead weather forecast statistics when available
 
