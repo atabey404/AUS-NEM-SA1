@@ -8,8 +8,8 @@ An English-language research project for five-minute data preparation, leakage c
 | --- | --- | --- |
 | 1 | Market concepts, sources, downloader, data dictionary and source QA | Complete |
 | 2 | Leakage-controlled model-table preparation | Complete |
-| 3 | Transparent benchmarks and chronological validation | Next |
-| 4 | Model improvement, diagnostics and operational forecast workflow | Planned |
+| 3 | Transparent benchmarks and chronological validation | Pipeline complete; full-data run pending |
+| 4 | Model improvement, diagnostics and operational forecast workflow | Next after baseline results |
 
 ## Modelling objective
 
@@ -26,9 +26,12 @@ An English-language research project for five-minute data preparation, leakage c
 | --- | --- |
 | `download_sa1_nem_data.py` | Downloads and filters AEMO NEMWeb data by month |
 | `prepare_sa1_model_data.py` | Builds a leakage-controlled day-ahead modelling table |
+| `evaluate_sa1_baselines.py` | Runs monthly walk-forward benchmark evaluation |
 | `requirements.txt` | Python dependencies for data preparation and modelling |
 | `tests/test_prepare_sa1_model_data.py` | Synthetic tests for lag boundaries, intervention filtering and weather alignment |
+| `tests/test_evaluate_sa1_baselines.py` | Synthetic tests for chronological folds and benchmark availability |
 | `PHASE_2_DATA_PREPARATION.md` | Phase 2 design, assumptions, controls and validation notes |
+| `PHASE_3_BASELINES.md` | Phase 3 benchmark definitions, metrics and acceptance rules |
 | `sa1_duid_fuel_map.csv` | Maps SA1 DUIDs to fuel and technology classes |
 | `AEMO_SA1_Data_Dictionary.xlsx` | Defines fields, units, sources, publication times and leakage risk |
 | `NEM_Market_Overview.docx` | Overview of the NEM and the SA1 modelling boundary |
@@ -70,6 +73,14 @@ Build the 24-hour-ahead model table:
 python prepare_sa1_model_data.py --input data_sa1
 ```
 
+Run the monthly walk-forward baselines:
+
+```bash
+python evaluate_sa1_baselines.py \
+  --input data_sa1/model/sa1_day_ahead_features.csv.gz \
+  --output-dir data_sa1/evaluation
+```
+
 Run the validation tests:
 
 ```bash
@@ -77,6 +88,10 @@ python -m unittest discover -s tests -v
 ```
 
 The generated model table and its JSON QA report are written under `data_sa1/model/`. Generated datasets are deliberately excluded from Git because they can be reproduced from the source archives.
+
+## Phase 3 benchmark boundary
+
+The evaluation pipeline compares previous-day persistence, previous-week persistence, a seven-day rolling median and a robust tree baseline. Test periods are complete calendar months, and every training row is strictly earlier than its test month. Results include MAE, RMSE, median absolute error, bias, direction accuracy and price-spike metrics.
 
 ## Phase 2 feature boundary
 
