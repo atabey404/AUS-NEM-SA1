@@ -193,7 +193,7 @@ def build_model_table(data_dir: Path, horizon: int = 288) -> tuple[pd.DataFrame,
     model["TARGET_RRP"] = price["TARGET_RRP"]
     model["PREDICTION_CUTOFF_AEST"] = model.index - pd.to_timedelta(horizon * 5, unit="minute")
 
-    lag_steps = sorted(set([horizon, horizon * 2, horizon + 288, horizon + 2016]))
+    lag_steps = sorted(set([horizon, horizon * 2, max(horizon, 2016)]))
     numeric = observed.select_dtypes(include=[np.number])
     for column in numeric.columns:
         for lag in lag_steps:
@@ -201,6 +201,8 @@ def build_model_table(data_dir: Path, horizon: int = 288) -> tuple[pd.DataFrame,
         model[f"{column}_ROLLING_MEAN_1D"] = numeric[column].shift(horizon).rolling(288, min_periods=144).mean()
         model[f"{column}_ROLLING_STD_1D"] = numeric[column].shift(horizon).rolling(288, min_periods=144).std()
         model[f"{column}_ROLLING_MEAN_7D"] = numeric[column].shift(horizon).rolling(2016, min_periods=1008).mean()
+        if column == "RRP":
+            model["RRP_ROLLING_MEDIAN_7D"] = numeric[column].shift(horizon).rolling(2016, min_periods=1008).median()
 
     add_calendar_features(model)
     weather = load_optional_weather(data_dir, model.index)
