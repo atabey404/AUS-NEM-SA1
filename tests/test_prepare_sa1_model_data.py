@@ -51,6 +51,8 @@ class PrepareModelDataTests(unittest.TestCase):
             self.assertEqual(row["PREDICTION_CUTOFF_AEST"], times[500] - pd.Timedelta(days=1))
             self.assertEqual(qa["forecast_horizon_hours"], 24)
             self.assertEqual(qa["target_missing"], 0)
+            self.assertEqual(model.iloc[2_200]["RRP_LAG_2016"], 184.0)
+            self.assertIn("RRP_ROLLING_MEDIAN_7D", model.columns)
 
     def test_weather_is_joined_to_target_time_without_using_reanalysis(self) -> None:
         with TemporaryDirectory() as directory:
